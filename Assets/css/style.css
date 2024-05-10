@@ -1,8 +1,8 @@
 :root {
-    --bg1: #FC766AFF;
-    --bg2: #000000;
-    --body: rgb(95, 86, 86);
-    --black: #181618;
+    --bg1: rgb(44, 89, 121);
+    --bg2: #3ba39a;
+    --body: rgb(230, 141, 141);
+    --black: #71ebe5;
     --white: rgb(255, 255, 255);
     --p: rgb(255, 179, 0);
 
@@ -32,7 +32,7 @@ a {
 }
 
 .navbar .nav-link {
-    color:#FFFFFF;
+    color:#bb5e5e;
 }
 
 .navbar #navbarNav .nav-link.active {
@@ -44,7 +44,7 @@ a {
 }
 
 .navbar-brand img {
-    width: 50%;
+    width: 10%;
 }
 
 .btn{
@@ -56,7 +56,7 @@ a {
 
 .btn-brand {
     background-color: var(--black);
-    color: #fdf7f7;
+    color: #e0ba3d;
 }
 
 .btn-brand:hover {
@@ -90,7 +90,7 @@ section {
 
 
 #Services {
-    background-color: var(--bg2);
+    background-color: var(--white);
 }
 
 .icon-box-img {
@@ -142,7 +142,7 @@ section {
 
 #reviews a {
     text-decoration: none;
-    color: var(--p);
+    color: var(pink);
 }
 
 .faq-section {
@@ -225,6 +225,14 @@ section {
 }
 
 .btn-outline-light {
-    border-color: #F2B03B !important;
-    color:#F2B03B
+    border-color: #3bf2da !important;
+    color:#3be6f2
+}
+@media screen and (max-width:767px){
+    section{
+        padding: 60px 20px;
+    }
+    .card{
+        margin-bottom:20px;
+    }
 }
